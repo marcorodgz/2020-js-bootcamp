@@ -1,0 +1,9 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgba(58, 110, 161, 0.467);
+@charset "utf-8";
+@import '~bulma/bulma';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
